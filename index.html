@@ -12,7 +12,7 @@
             <input id="display" readonly />
             <div class="buttons">
                 <button class="button operator" onclick="appendToDisplay('*')">
-                    *
+                    x
                 </button>
                 <button class="button num" onclick="appendToDisplay('7')">
                     7
@@ -46,10 +46,14 @@
                 <button class="button num" onclick="appendToDisplay('2')">
                     2
                 </button>
+
                 <button class="button num" onclick="appendToDisplay('3')">
                     3
                 </button>
-                <button class="button operator" onclick="calculate()">=</button>
+
+                <button class="button operator" onclick="appendToDisplay('+')">
+                    +
+                </button>
 
                 <button class="button num" onclick="appendToDisplay('0')">
                     0
@@ -59,9 +63,8 @@
                 </button>
 
                 <button class="button clear" onclick="clear()">C</button>
-                <button class="button operator" onclick="appendToDisplay('+')">
-                    +
-                </button>
+
+                <button class="button operator" onclick="calculate()">=</button>
             </div>
         </div>
 

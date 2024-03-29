@@ -13,9 +13,12 @@ body {
 
 .calculator {
     max-width: 500px;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 #display {
+    display: inline-block;
     height: 100px;
     width: 100%;
     background: #252323;
